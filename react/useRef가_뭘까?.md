@@ -67,10 +67,9 @@ export default InputSample;
 ```
 
 이걸 이제 테스트 해보기 위해서 벨로퍼트님 [자료](https://react.vlpt.us/basic/10-useRef.html)를 참고해서 코드를 작성해봤습니다. 
+![image](https://github.com/krokerdile/warehouse/assets/39644976/8541f85d-63f2-4408-b6bf-a4248dcc6046)
+![image](https://github.com/krokerdile/warehouse/assets/39644976/f33f9db0-740e-40df-a201-e01212687af1)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0483f3fb-e84e-43e6-b3c7-d93e74749b98/6655ffbd-2b10-454a-9119-96c4bcf24ce4/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0483f3fb-e84e-43e6-b3c7-d93e74749b98/466c23c7-774d-4946-9f4b-8817f5917102/Untitled.png)
 
 왼쪽 인풋 태그 두 개 중 왼쪽 아이디에 값을 입력하고 비밀번호에 값을 입력하면 focus가 비밀번호에 잡혀있는 걸 확인 할 수 있습니다. 이 다음에 초기화를 해주면, setState를 통해 두 개의 값을 초기화 해주고, focus가 왼쪽 Id 인풋 태그에 들어가는 것을 확인 할 수 있습니다. 이런 느낌으로 DOM에 직접 이름표를 달고 변경을 해줄 수 있다는 것을 확인 할 수 있습니다. 
 
